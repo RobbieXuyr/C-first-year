@@ -8,7 +8,7 @@ class SuperPrime
 		void addself();// count++
 		int IsSuperPrime();
 		int IsPrime();
-		int add(int x);
+		int add(SuperPrime x);
 		int compare(int x);
 	private:
 		int num;
@@ -29,7 +29,7 @@ int main ()
 			{
 				max.compare(i);
 				count.addself();
-				sum.add(i);
+				sum.add(sp);
 			}
 			
 		}
@@ -105,9 +105,9 @@ int SuperPrime::IsSuperPrime()
 	} 
 }
 
-int SuperPrime::add(int x)
+int SuperPrime::add(SuperPrime x)
 {
-	num+=x;
+	num+=x.num;
 }
 
 int SuperPrime::compare(int x)
