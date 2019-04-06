@@ -13,7 +13,7 @@ int main ()
 		memset(a,0,sizeof(a));
 		memset(b,0,sizeof(b));
 		memset(sum,0,sizeof(sum));
-        //×Ö·û´®×ªint£¬²¢ÇÒµ¹ÖÃ 
+        //å­—ç¬¦ä¸²è½¬intï¼Œå¹¶ä¸”å€’ç½® 
 		for(i=strlen(A)-1,k=0;i>=0;i--,k++)
 		{
 			a[k]=A[i]-'0';
@@ -28,7 +28,7 @@ int main ()
 			sum[k]=a[k]+b[k];
 			//printf("%d",sum[k]); 
 		}
-		for(k=0;k<maxn-1;k++)//ÅĞ¶Ï½øÎ» 
+		for(k=0;k<maxn-1;k++)//åˆ¤æ–­è¿›ä½ 
 		{
 			if(sum[k]>=10)
 			{
@@ -36,7 +36,7 @@ int main ()
 				sum[k+1]=sum[k+1]+1;
 			}
 		}
-		for(k=maxn-1;k>0;k--)//Ñ°ÕÒÆğÊ¼Î»ÖÃ 
+		for(k=maxn-1;k>0;k--)//å¯»æ‰¾èµ·å§‹ä½ç½® 
 		{
 			if(sum[k]!=0) 
 			break;
