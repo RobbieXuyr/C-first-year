@@ -10,11 +10,8 @@ class SuperPrime
 		int IsSuperPrime();
 		int IsPrime();
 		int add(SuperPrime x);
-<<<<<<< HEAD
 		int compare(int x);
-=======
 		int compare(SuperPrime x);
->>>>>>> adbf9bc3ce53e4dbdcc4234cb0a03c38fd358aac
 	private:
 		int num;
 		int d1;//to keep three digits (only for [100-999])
