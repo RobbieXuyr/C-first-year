@@ -1,3 +1,2 @@
-Here're some easy-to-death C/C++ codes writing in SCU from 18 to 19.
+# C/C++ code writing in SCU from 2018 to 2019.
 
-Wish more codes could be added.    ^_^ 
